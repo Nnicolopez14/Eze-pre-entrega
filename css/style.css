@@ -1,0 +1,167 @@
+.header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: white;
+}
+
+.header h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: green;
+}
+
+.header p{
+    font-weight: 400;
+    font-size: 35px;
+    color: green;
+}
+
+.header section{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 40px;
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar li:hover{
+    transform: scale(1.1);
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 800;
+    gap: 20px;
+}
+
+.publicidad-cremas{
+    width: 100%;
+    height: 18.75rem;
+}
+
+.cremas{
+    width: 100%;
+    height: 100%;
+}
+
+.publicidad-dermocosmetica{
+    width: 100%;
+    height: 18.75rem;
+}
+
+.dermocosmetica{
+    width: 100%;
+    height: 100%;
+}
+
+.products-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    height: 600px;
+}
+
+.container-card{
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    border-radius: .625rem;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+}
+
+.container-card div{
+    width: 100%;
+    height: 60%;
+}
+
+.container-card div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-card .btn{
+    font-weight: 700;
+    padding: 9px 25px;
+    background: white;
+    border: 1px solid orange;
+    border-radius: 50px;
+}
+
+.container-card .btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1.25rem;
+}
+
+footer section iframe{
+    width: 200px;
+    height: 200px;
+}
+
+.mapa-grande{
+    width: 100%;
+}
+
+.productos-bebe{
+    width: 100%;
+}
+
+.los4{
+    width: 60%;
+}
+
+.texto-quienes{
+    font-size: 25px;
+}
+
+.farmacia-2{
+width: 30%;
+}
+
+.farmacia-3{
+width: 30%;
+}
+
+.farmacia{
+    width: 100%;
+}
+
+.btn{
+    font-weight: 700;
+    padding: 9px 25px;
+    background: white;
+    border: 1px solid orange;
+    border-radius: 50px;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
