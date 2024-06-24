@@ -1,3 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 .header{
     width: 100%;
     margin: 0 auto;
@@ -53,14 +60,8 @@ nav #toggle, nav label{
     display: none;
 }
 
-.publicidad-cremas{
-    width: 100%;
-    height: 18.75rem;
-}
-
-.cremas{
-    width: 100%;
-    height: 100%;
+main{
+    padding: 20px;
 }
 
 .publicidad-dermocosmetica{
@@ -78,6 +79,8 @@ nav #toggle, nav label{
     justify-content: center;
     gap: 1.25rem;
     height: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container-card{
@@ -121,23 +124,37 @@ footer{
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 1.25rem;
+    padding-top: 20px;
 }
 
-footer section iframe{
+footer div iframe{
     width: 200px;
     height: 200px;
 }
 
 .mapa-grande{
     width: 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
+.foto-ubicacion{
+    width: 100%;
+    height: 350px;
+}
 .productos-bebe{
     width: 100%;
+    height: 100%;
 }
 
+.foto-personal{
+width: 100%;
+height: 400px;
+}
 .los4{
-    width: 60%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .texto-quienes{
@@ -146,17 +163,20 @@ footer section iframe{
 
 .farmacia-2{
 width: 50%;
-height: 400px;
+height: 100%;
+object-fit: cover;
 }
 
 .imagenes{
     width: 100%;
     height: 400px;
     display: flex;
+    gap: .3125rem;
 }
 .farmacia-3{
 width: 50%;
-height: 400px;
+height: 100%;
+object-fit: cover;
 }
 
 .farmacia{
@@ -195,31 +215,160 @@ height: 400px;
     nav #toggle:checked ~.menu{
         height: 100%;
     }
-    .encontranos{
-        flex-direction: column;
-        padding: 20px;
+    .publicidad-dermocosmetica{
+        width: 100%;
+        height: 200px;
+    }
+    .dermocosmetica{
+        width: 100%;
+        height: 100%;
     }
     footer{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
+        background-color: grey;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 1.25rem;
     }
-    .quienes-main{
-        .texto-quienes{
-            font-size: .9375rem;
-        }
+    .texto-quienes{
+        font-size: 20px;
+    }
+    .encontranos-mapa{
+        width: 100%;
+        height: 400px;
     }
 }
 
-@media(max-width: 375px){
-    .contacto{
+@media(max-width: 426px){
+    .publicidad-dermocosmetica{
+        width: 100%;
+        height: 150px;
+    }
+    .dermocosmetica{
+        width: 100%;
+        height: 100%;
+    }
+    footer{
+        background-color: grey;
         display: flex;
         flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
     }
-    .quienes-main{
-        .imagenes{
-            flex-direction: column;
+    .products-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.25rem;
+        height: auto;
+        padding-top: 20px;
+    }
+    .texto-quienes{
+        font-size: 15px;
+    }
+    .imagenes{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        gap: 1.25rem;
+        padding-bottom: 20px;
+    }
+    .farmacia-3{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .farmacia-2{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .encontranos-mapa{
+        width: 100%;
+        height: 400px;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media(max-width: 376px){
+    .imagenes{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        gap: 1.25rem;
+        padding-bottom: 20px;
+    }
+    .farmacia-3{
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .farmacia-2{
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 321px){
+    .products-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.25rem;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .publicidad-dermocosmetica{
+        width: 100%;
+        height: 100px;
+    }
+    .dermocosmetica{
+        width: 100%;
+        height: 100%;
+    }
+    footer{
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagenes{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        gap: 1.25rem;
+        padding-bottom: 20px;
+    }
+    .farmacia-3{
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .farmacia-2{
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .foto-personal{
+        width: 100%;
+        height: 350px;
+        text-align: center;
+        justify-content: center;
         }
+    .los4{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+    }
+    .texto-quienes{
+        font-size: 12px;
     }
 }
