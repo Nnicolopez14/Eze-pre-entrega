@@ -1,0 +1,14 @@
+footer{
+    background-color: $color-principal;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1.25rem;
+    padding-top: 20px;
+    div{
+        iframe{
+            width: 200px;
+            height: 200px;
+        }
+    }
+}

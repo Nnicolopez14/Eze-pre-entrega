@@ -1,0 +1,43 @@
+.header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: $color-principal;
+    h1{
+        font-weight: 700;
+        font-size: 50px;
+        color: $color-cuarto;
+    }
+    p{
+        font-weight: 400;
+        font-size: 35px;
+        color: $color-cuarto;
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-items: center;
+        background-color: $color-terciario;
+        padding: 1rem 1.5rem;
+        border-radius: 40px;
+        .navbar{
+            display: flex;
+            gap: 1.25rem;
+            list-style: none;
+            li:hover{
+                transform: scale(1.1);
+            }
+            li a{
+                text-decoration: none;
+                font-size: 1.25rem;
+                color: $color-letra;
+                font-weight: 800;
+                gap: 1.5625rem;
+            }
+        }
+        & #toggle, & label{
+            display: none;
+        }
+}
+}

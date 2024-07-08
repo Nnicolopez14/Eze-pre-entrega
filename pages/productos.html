@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farmacia Nueva Argentina</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header class="header">
         <div>
             <h1><b>Farmacia</b></h1>
+            <p><b>Nueva Argentina</b></h1>
         <nav>
             <ul class="navbar">
                 <li><a href="../index.html">Inicio</a></li>
@@ -22,73 +21,68 @@
             </ul>
         </nav>
         </div>
-        <div>
-            <p><b>Nueva Argentina</b></h1>
-            </div>
     </header>
     <main>
-        <section class="d-flex justify-content-center gap-4">
-            <div>
-                <h1>Categorias</h1>
+        <div class="categorias">
+            <h1>Categorias</h1>
+            <ul class="categorias-productos">
+                <li><button class="btn">Belleza</button></li>
+                <li><button class="btn">Dermocosmetica</button></li>
+                <li><button class="btn">Cuidado Personal</button></li>
+                <li><button class="btn">Bebes</button></li>
+                <li><button class="btn">Salud y Farmacia</button></li>
+            </ul>
+        </div>
+        <section class="products-container">
+            <div class="container-card">
+                <div>
+                    <img src="../assets/pasta-dental.jpg" alt="Pasta Dental">
+                </div>
+                <h2>Pasta Dental Colgate Total 12 Carbon Activado x90g</h2>
+                <p>$3200</p>
+                <button class="btn">Agregar</button>
             </div>
-            <button type="button" class="btn btn-primary">Belleza</button>
-            <button type="button" class="btn btn-secondary">Dermocosmetica</button>
-            <button type="button" class="btn btn-success">Bebe</button>
-            <button type="button" class="btn btn-danger">Cuidado Personal</button>
-            <button type="button" class="btn btn-warning">Salud y Farmacia</button>
+            <div class="container-card">
+                <div>
+                    <img src="../assets/palillos-gum.jpg" alt="Palillos Gum">
+                </div>
+                <h2>Palillos Interdentales Soft-Picks Advanced x12ud</h2>
+                <p>$2550</p>
+                <button class="btn">Agregar</button>
+            </div>
+            <div class="container-card">
+                <div>
+                    <img src="../assets/gum.jpg" alt="cera Gum">
+                </div>
+                <h2>Cera de Alivio Gum para Ortodoncia x5un</h2>
+                <p>$3000</p>
+                <button class="btn">Agregar</button>
+            </div>
         </section>
-        <br>
-        <section class="d-flex justify-content-center gap-4">
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/enjuague-bucal.jpg" class="card-img-top" alt="Enjuague Bucal">
-                <div class="card-body">
-                    <h2 class="card-title">Enjuague Bucal Colgate Luminous White x250ml</h5>
-                    <p class="card-text">$5300</p>
-                    <a href="#" class="btn btn-primary">Agregar</a>
+        <section class="products-container">
+            <div class="container-card">
+                <div>
+                    <img src="../assets/enjuague-bucal.jpg" alt="Enjuague Bucal">
                 </div>
+                <h2>Enjuague Bucal Colgate Luminous White x250ml</h2>
+                <p>$5300</p>
+                <button class="btn">Agregar</button>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/colgate-cepillos.jpg" class="card-img-top" alt="Cepillo Colgate">
-                <div class="card-body">
-                    <h2 class="card-title">Cepillo Dental Colgate Max White Medio x2un</h5>
-                    <p class="card-text">$3060</p>
-                    <a href="#" class="btn btn-primary">Agregar</a>
+            <div class="container-card">
+                <div>
+                    <img src="../assets/colgate-cepillos.jpg" alt="Cepillo Colgate">
                 </div>
+                <h2>Cepillo Dental Colgate Max White Medio x2un</h2>
+                <p>$3060</p>
+                <button class="btn">Agregar</button>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/gum-cepillos.jpg" class="card-img-top" alt="Cepillo Gum">
-                <div class="card-body">
-                    <h2 class="card-title">Kit de Ortodoncia Gum</h5>
-                    <p class="card-text">$8400</p>
-                    <a href="#" class="btn btn-primary">Agregar</a>
+            <div class="container-card">
+                <div>
+                    <img src="../assets/gum-cepillos.jpg" alt="Cepillo Gum">
                 </div>
-            </div>
-        </section>
-        <br>
-        <section class="d-flex justify-content-center gap-4">
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/pasta-dental.jpg" class="card-img-top" alt="Pasta Dental">
-                <div class="card-body">
-                    <h2 class="card-title">Pasta Dental Colgate Total 12 Carbon Activado x90g</h5>
-                    <p class="card-text">$3200</p>
-                    <a href="#" class="btn btn-primary">Agregar</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/palillos-gum.jpg" class="card-img-top" alt="Gum Palillos">
-                <div class="card-body">
-                    <h2 class="card-title">Palillos Interdentales Soft-Picks Advanced x12ud</h5>
-                    <p class="card-text">$2550</p>
-                    <a href="#" class="btn btn-primary">Agregar</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="../assets/gum.jpg" class="card-img-top" alt="Cera Gum">
-                <div class="card-body">
-                    <h2 class="card-title">Cera de Alivio Gum para Ortodoncia x5un</h5>
-                    <p class="card-text">$3000</p>
-                    <a href="#" class="btn btn-primary">Agregar</a>
-                </div>
+                <h2>Kit de Ortodoncia Gum</h2>
+                <p>$8400</p>
+                <button class="btn">Agregar</button>
             </div>
         </section>
     </main>
@@ -125,7 +119,5 @@
         </div>
             
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>

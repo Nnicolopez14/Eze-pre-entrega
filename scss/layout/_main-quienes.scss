@@ -1,0 +1,33 @@
+main{
+    .quienes-main{
+        .foto-personal{
+            width: 100%;
+            height: 400px;
+            .los4{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        div{
+            .texto-quienes{
+                font-size: 25px;
+            }
+        }
+        .imagenes{
+            display: flex;
+            width: 100%;
+            height: 400px;
+            .farmacia-2{
+                width: 50%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .farmacia-3{
+                width: 50%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+main{
+    .categorias{
+        .categorias-productos{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 1.25rem;
+            list-style: none;
+            .btn{
+                font-weight: 700;
+                padding: 9px 25px;
+                background: $color-terciario;
+                border: 1px solid black;
+                border-radius: 50px;
+                &:hover{
+                    background-color: $color-secundario;
+                    color: $color-letra;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}

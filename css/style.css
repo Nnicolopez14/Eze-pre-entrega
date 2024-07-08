@@ -1,374 +1,227 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
-
-.header{
-    width: 100%;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: white;
-}
-
-.header h1{
+.header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #B4B4B8; }
+  .header h1 {
     font-weight: 700;
     font-size: 50px;
-    color: green;
-}
-
-.header p{
+    color: #E3E1D9; }
+  .header p {
     font-weight: 400;
     font-size: 35px;
-    color: green;
-}
-
-.header div{
-    display: flex;
-    justify-content: space-between;
-}
-
-nav{
+    color: #E3E1D9; }
+  .header nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
     align-items: center;
+    background-color: #c7c8cc;
     padding: 1rem 1.5rem;
-    border-radius: 40px;
-}
+    border-radius: 40px; }
+    .header nav .navbar {
+      display: flex;
+      gap: 1.25rem;
+      list-style: none; }
+      .header nav .navbar li:hover {
+        transform: scale(1.1); }
+      .header nav .navbar li a {
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: black;
+        font-weight: 800;
+        gap: 1.5625rem; }
+    .header nav #toggle, .header nav label {
+      display: none; }
 
-.navbar{
-    display: flex;
-    gap: 20px;
-    list-style: none;
-}
+main {
+  background-color: #f2efe5; }
 
-.navbar li:hover{
-    transform: scale(1.1);
-}
+footer {
+  background-color: #B4B4B8;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1.25rem;
+  padding-top: 20px; }
+  footer div iframe {
+    width: 200px;
+    height: 200px; }
 
-.navbar li a{
-    text-decoration: none;
-    font-size: 1.25rem;
-    color: black;
-    font-weight: 800;
-    gap: 20px;
-}
-
-nav #toggle, nav label{
-    display: none;
-}
-
-main{
-    padding: 20px;
-}
-
-.publicidad-dermocosmetica{
-    width: 100%;
-    height: 18.75rem;
-}
-
-.dermocosmetica{
+main .publicidad-dermocosmetica {
+  width: 100%;
+  height: 18.75rem; }
+  main .publicidad-dermocosmetica .dermocosmetica {
     width: 100%;
     height: 100%;
-}
+    object-fit: cover; }
 
-.products-container{
-    display: flex;
-    justify-content: center;
-    gap: 1.25rem;
-    height: 600px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+main .encontranos-mapa .mapa-grande {
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 10px; }
 
-.container-card{
+main .foto-ubicacion {
+  width: 100%;
+  height: 350px; }
+  main .foto-ubicacion .productos-bebe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+main .quienes-main .foto-personal {
+  width: 100%;
+  height: 400px; }
+  main .quienes-main .foto-personal .los4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+main .quienes-main div .texto-quienes {
+  font-size: 25px; }
+
+main .quienes-main .imagenes {
+  display: flex;
+  width: 100%;
+  height: 400px; }
+  main .quienes-main .imagenes .farmacia-2 {
+    width: 50%;
+    height: 100%;
+    object-fit: cover; }
+  main .quienes-main .imagenes .farmacia-3 {
+    width: 50%;
+    height: 100%;
+    object-fit: cover; }
+
+main .categorias .categorias-productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  list-style: none; }
+  main .categorias .categorias-productos .btn {
+    font-weight: 700;
+    padding: 9px 25px;
+    background: #c7c8cc;
+    border: 1px solid black;
+    border-radius: 50px; }
+    main .categorias .categorias-productos .btn:hover {
+      background-color: #f2efe5;
+      color: black;
+      transform: scale(1.1); }
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  height: 600px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .products-container .container-card {
     width: 300px;
     height: 450px;
     text-align: center;
     border-radius: .625rem;
     overflow: hidden;
     box-shadow: 1px 1px 5px black;
-    background-color: white;
-}
-
-.container-card div{
-    width: 100%;
-    height: 60%;
-}
-
-.container-card div img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.container-card .btn{
-    font-weight: 700;
-    padding: 9px 25px;
-    background: white;
-    border: 1px solid orange;
-    border-radius: 50px;
-}
-
-.container-card .btn:hover{
-    background-color: white;
-    color: black;
-    transform: scale(1.1);
-}
-
-footer{
-    background-color: grey;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 1.25rem;
-    padding-top: 20px;
-}
-
-footer div iframe{
-    width: 200px;
-    height: 200px;
-}
-
-.mapa-grande{
-    width: 100%;
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
-
-.foto-ubicacion{
-    width: 100%;
-    height: 350px;
-}
-.productos-bebe{
-    width: 100%;
-    height: 100%;
-}
-
-.foto-personal{
-width: 100%;
-height: 400px;
-}
-.los4{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.texto-quienes{
-    font-size: 25px;
-}
-
-.farmacia-2{
-width: 50%;
-height: 100%;
-object-fit: cover;
-}
-
-.imagenes{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    gap: .3125rem;
-}
-.farmacia-3{
-width: 50%;
-height: 100%;
-object-fit: cover;
-}
-
-.farmacia{
-    width: 100%;
-}
-
-.btn{
-    font-weight: 700;
-    padding: 9px 25px;
-    background: white;
-    border: 1px solid orange;
-    border-radius: 50px;
-}
-
-.btn{
-    background-color: white;
-    color: black;
-    transform: scale(1.1);
-}
-
-@media(max-width: 768px){ 
-    nav .menu{
+    background-color: #f2efe5; }
+    .products-container .container-card div {
+      width: 100%;
+      height: 60%; }
+      .products-container .container-card div img {
         width: 100%;
-        height: 0;
-        overflow: hidden;
-    }
-    nav .navbar{
-        flex-direction: column;
-        align-items: center;
-        padding: 0.5rem 0;
-    }
-    nav label{
-        display: inline-flex;
+        height: 100%;
+        object-fit: cover; }
+    .products-container .container-card .btn {
+      font-weight: 700;
+      padding: 9px 25px;
+      background: #c7c8cc;
+      border: 1px solid black;
+      border-radius: 50px; }
+      .products-container .container-card .btn:hover {
+        background-color: #f2efe5;
         color: black;
-    }
-    nav #toggle:checked ~.menu{
-        height: 100%;
-    }
-    .publicidad-dermocosmetica{
-        width: 100%;
-        height: 200px;
-    }
-    .dermocosmetica{
-        width: 100%;
-        height: 100%;
-    }
-    footer{
-        background-color: grey;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        gap: 1.25rem;
-    }
-    .texto-quienes{
-        font-size: 20px;
-    }
-    .encontranos-mapa{
-        width: 100%;
-        height: 400px;
-    }
-}
+        transform: scale(1.1); }
 
-@media(max-width: 426px){
-    .publicidad-dermocosmetica{
-        width: 100%;
-        height: 150px;
-    }
-    .dermocosmetica{
-        width: 100%;
-        height: 100%;
-    }
-    footer{
-        background-color: grey;
+main .formu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 420px;
+  align-items: center;
+  justify-content: center; }
+  main .formu .form-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-color: #E3E1D9; }
+    main .formu .form-information .form-inf {
+      padding: 0 30px; }
+      main .formu .form-information .form-inf .icon {
+        margin: 15px 0; }
+        main .formu .form-information .form-inf .icon i {
+          border-radius: 50%;
+          padding: 15px;
+          cursor: pointer;
+          margin: 0 10px;
+          transition: 0.3s ease;
+          box-shadow: 0 2px 5px #B4B4B8; }
+          main .formu .form-information .form-inf .icon i:hover {
+            background-color: #B4B4B8;
+            color: #E3E1D9; }
+    main .formu .form-information .form {
+      margin: 30px 0 0 0; }
+      main .formu .form-information .form label {
         display: flex;
-        flex-direction: column;
-        width: 100%;
         align-items: center;
-        justify-content: center;
-    }
-    .products-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.25rem;
-        height: auto;
-        padding-top: 20px;
-    }
-    .texto-quienes{
-        font-size: 15px;
-    }
-    .imagenes{
-        width: 100%;
-        height: 200px;
-        display: flex;
-        gap: 1.25rem;
-        padding-bottom: 20px;
-    }
-    .farmacia-3{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .farmacia-2{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .encontranos-mapa{
-        width: 100%;
-        height: 400px;
-        padding-bottom: 20px;
-    }
-}
-
-
-@media(max-width: 376px){
-    .imagenes{
-        width: 100%;
-        height: 200px;
-        display: flex;
-        gap: 1.25rem;
-        padding-bottom: 20px;
-    }
-    .farmacia-3{
-        width: 50%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .farmacia-2{
-        width: 50%;
-        height: 100%;
-        object-fit: cover;
-    }
-}
-
-@media(max-width: 321px){
-    .products-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.25rem;
-        width: 100%;
-        height: auto;
-        padding-top: 20px;
-    }
-    .publicidad-dermocosmetica{
-        width: 100%;
-        height: 100px;
-    }
-    .dermocosmetica{
-        width: 100%;
-        height: 100%;
-    }
-    footer{
-        background-color: grey;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-    .imagenes{
-        width: 100%;
-        height: 200px;
-        display: flex;
-        gap: 1.25rem;
-        padding-bottom: 20px;
-    }
-    .farmacia-3{
-        width: 50%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .farmacia-2{
-        width: 50%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .foto-personal{
-        width: 100%;
-        height: 350px;
-        text-align: center;
-        justify-content: center;
-        }
-    .los4{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-    }
-    .texto-quienes{
-        font-size: 12px;
-    }
-}
+        margin-bottom: 15px;
+        border-radius: 20px;
+        padding: 0 30px;
+        box-shadow: 0 2px 5px black;
+        background-color: #B4B4B8;
+        width: 350px; }
+        main .formu .form-information .form label input {
+          width: 100%;
+          padding: 10px;
+          background-color: #fff;
+          border: none;
+          outline: none;
+          border-radius: 20px;
+          color: #555555; }
+        main .formu .form-information .form label i {
+          color: black;
+          padding: 10px;
+          gap: 1.5625rem; }
+      main .formu .form-information .form input[type="submit"] {
+        background-color: #555555;
+        color: #B4B4B8;
+        border-radius: 20px;
+        border: none;
+        padding: 12px 15px;
+        cursor: pointer;
+        margin: 1px;
+        box-shadow: 0 2px 5px #555555; }
+  main .formu .contenido-info {
+    width: 60%;
+    text-align: center;
+    align-items: center; }
+    main .formu .contenido-info h3 {
+      font-size: 40px;
+      color: black; }
+    main .formu .contenido-info h4 {
+      margin: 15px 0;
+      color: black;
+      font-size: 25px; }
+    main .formu .contenido-info p {
+      margin: 15px 0;
+      color: black;
+      font-size: 16px; }
