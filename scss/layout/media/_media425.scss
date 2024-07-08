@@ -1,0 +1,110 @@
+@media(max-width: 426px){
+    .header{
+        nav{
+            .menu{
+                width: 100%;
+                height: 0;
+                overflow: hidden;
+            }
+            .navbar{
+                flex-direction: column;
+                align-items: center;
+                padding: 0.5rem 0;
+            }
+            label{
+                display: inline-flex;
+                color: $color-letra;
+            }
+            #toggle:checked ~.menu{
+                height: 100%;
+            }
+        }
+    }
+    main{
+        .publicidad-dermocosmetica{
+            width: 100%;
+            height: 150px;
+            .dermocosmetica{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .products-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1.25rem;
+            height: auto;
+            padding-top: 20px;
+        }
+        .categorias{
+            .categorias-productos{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1.25rem;
+                list-style: none;
+            }
+        }
+        .formu{
+            display: flex;
+            flex-direction: column;
+            height: 950px;
+            .form-information{
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+                font-size: 20px;
+                .form-inf{
+                    font-size: small;
+                }
+                .form{
+                    margin: 30px 0 0 0;
+                    label{
+                        width: 100%;
+                    }
+                }
+            }
+            .contenido-info{
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+        .quienes-main{
+            div{
+                .texto-quienes{
+                    font-size: 15px;
+                }
+            }
+        }
+        .foto-ubicacion{
+            width: 100%;
+            height: 150px;
+            .productos-bebe{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .encontranos-mapa{
+            width: 100%;
+            height: 300px;
+            padding-bottom: 20px;
+            .mapa-grande{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    footer{
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}

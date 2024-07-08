@@ -225,3 +225,167 @@ main .formu {
       margin: 15px 0;
       color: black;
       font-size: 16px; }
+
+@media (max-width: 768px) {
+  .header nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden; }
+  .header nav .navbar {
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 0; }
+  .header nav label {
+    display: inline-flex;
+    color: black; }
+  .header nav #toggle:checked ~ .menu {
+    height: 100%; }
+  main .publicidad-dermocosmetica {
+    width: 100%;
+    height: 200px; }
+    main .publicidad-dermocosmetica .dermocosmetica {
+      width: 100%;
+      height: 100%; }
+  main .quienes-main div .texto-quienes {
+    font-size: 20px; }
+  main .encontranos-mapa {
+    width: 100%;
+    height: 400px; }
+    main .encontranos-mapa .mapa-grande {
+      width: 100%;
+      height: 100%; }
+  main .foto-ubicacion {
+    width: 100%;
+    height: 200px; }
+    main .foto-ubicacion .productos-bebe {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; } }
+
+@media (max-width: 426px) {
+  .header nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden; }
+  .header nav .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0; }
+  .header nav label {
+    display: inline-flex;
+    color: black; }
+  .header nav #toggle:checked ~ .menu {
+    height: 100%; }
+  main .publicidad-dermocosmetica {
+    width: 100%;
+    height: 150px; }
+    main .publicidad-dermocosmetica .dermocosmetica {
+      width: 100%;
+      height: 100%; }
+  main .products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    height: auto;
+    padding-top: 20px; }
+  main .categorias .categorias-productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    list-style: none; }
+  main .formu {
+    display: flex;
+    flex-direction: column;
+    height: 950px; }
+    main .formu .form-information {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      font-size: 20px; }
+      main .formu .form-information .form-inf {
+        font-size: small; }
+      main .formu .form-information .form {
+        margin: 30px 0 0 0; }
+        main .formu .form-information .form label {
+          width: 100%; }
+    main .formu .contenido-info {
+      width: 100%;
+      text-align: center;
+      justify-content: center; }
+  main .quienes-main div .texto-quienes {
+    font-size: 15px; }
+  main .foto-ubicacion {
+    width: 100%;
+    height: 150px; }
+    main .foto-ubicacion .productos-bebe {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  main .encontranos-mapa {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 20px; }
+    main .encontranos-mapa .mapa-grande {
+      width: 100%;
+      height: 100%; }
+  footer {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center; } }
+
+@media (max-width: 376px) {
+  main .formu {
+    display: flex;
+    flex-direction: column;
+    height: 700px; }
+    main .formu .form-information {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      font-size: 20px; }
+      main .formu .form-information .form-inf {
+        font-size: small; }
+      main .formu .form-information .form {
+        margin: 30px 0 0 0; }
+        main .formu .form-information .form label {
+          width: 100%; }
+    main .formu .contenido-info {
+      width: 100%;
+      text-align: center;
+      justify-content: center; }
+  main .imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    gap: .3125rem;
+    padding-bottom: 20px; }
+    main .imagenes .farmacia-2 {
+      width: 100%;
+      height: 175px;
+      object-fit: cover; }
+    main .imagenes .farmacia-3 {
+      width: 100%;
+      height: 175px;
+      object-fit: cover; }
+  main .foto-ubicacion {
+    width: 100%;
+    height: 100px; }
+    main .foto-ubicacion .productos-bebe {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  main .publicidad-dermocosmetica {
+    width: 100%;
+    height: 100px; }
+    main .publicidad-dermocosmetica .dermocosmetica {
+      width: 100%;
+      height: 100%; } }
