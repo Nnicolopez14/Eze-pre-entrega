@@ -389,3 +389,25 @@ main .formu {
     main .publicidad-dermocosmetica .dermocosmetica {
       width: 100%;
       height: 100%; } }
+
+@media (max-width: 320px) {
+  main .publicidad-dermocosmetica {
+    width: 100%;
+    height: 100px; }
+    main .publicidad-dermocosmetica .dermocosmetica {
+      width: 100%;
+      height: 100%; }
+  main .foto-ubicacion {
+    width: 100%;
+    height: 100px; }
+    main .foto-ubicacion .productos-bebe {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  main .encontranos-mapa {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px; }
+    main .encontranos-mapa .mapa-grande {
+      width: 100%;
+      height: 100%; } }

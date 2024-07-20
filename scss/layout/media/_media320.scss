@@ -1,0 +1,30 @@
+@media(max-width: 320px){
+    main{
+        .publicidad-dermocosmetica{
+            width: 100%;
+            height: 100px;
+            .dermocosmetica{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .foto-ubicacion{
+            width: 100%;
+            height: 100px;
+            .productos-bebe{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .encontranos-mapa{
+            width: 200px;
+            height: 200px;
+            padding-bottom: 20px;
+            .mapa-grande{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
